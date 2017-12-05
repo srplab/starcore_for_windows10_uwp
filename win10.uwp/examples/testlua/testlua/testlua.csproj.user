@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <LayoutDir>D:\Work\starcore\core\starcore.uniapp\starcore_for_winuap.x.x.x\win10.uwp\examples\testlua\testlua\bin\x86\Debug\AppX</LayoutDir>
+  </PropertyGroup>
+</Project>
