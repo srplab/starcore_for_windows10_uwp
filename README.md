@@ -15,7 +15,7 @@ We recommend that developers write primary logic in a scripting language, and GU
 - Providing unified interface to multiple script language.
 
 
-## starcore_for_windows10_uwp v3.4.0
+## starcore_for_windows10_uwp v3.5.0
 
 - c/c++, lua, c#, python3.4.5/3.5.2/3.6.3,ruby225
 - lua 5.3.5
@@ -24,6 +24,14 @@ We recommend that developers write primary logic in a scripting language, and GU
 
 
 ## History of CLE
+
+### v3.5.0
+- Add the object index count change callback function for SRPControlInterface, RegRefCountChangeCallBack and UnRegRefCountChangeCallBack
+- fix memory bug for object with long name
+- fix memory bug for Del function of ParaPkg
+- add vs_tm_gettickcount_us for vs_shell and _TickCountUs for script interface
+- fix bug about define python callback using decorator
+- released at 2019/07/27
 
 ### v3.4.0
 - fixed bug when initialize cle on macos, sometimes waiting too long.
