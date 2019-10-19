@@ -15,7 +15,7 @@ We recommend that developers write primary logic in a scripting language, and GU
 - Providing unified interface to multiple script language.
 
 
-## starcore_for_windows10_uwp v3.6.0
+## starcore_for_windows10_uwp v3.7.0
 
 - c/c++, lua, c#, python3.4.5/3.5.2/3.6.3,ruby225
 - lua 5.3.5
@@ -24,6 +24,12 @@ We recommend that developers write primary logic in a scripting language, and GU
 
 
 ## History of CLE
+
+### v3.7.0
+- Solve the bug that LuaIsFunctionDeined is not affected by InvalidRegLuaFunction
+- Solve the bug that python multithreading simultaneously calling SRP Dispatch may deadlock
+- Add the function DispatchCall/MainDispatchCall to assist the call of object function between multiple threads
+- released at 2019/10/19
 
 ### v3.6.0
 - Solve the bug of parapkg function GetValueStr
