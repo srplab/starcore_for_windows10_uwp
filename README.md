@@ -15,7 +15,7 @@ We recommend that developers write primary logic in a scripting language, and GU
 - Providing unified interface to multiple script language.
 
 
-## starcore_for_windows10_uwp v3.7.4
+## starcore_for_windows10_uwp v3.7.5
 
 - c/c++, lua, c#, python3.4.5/3.5.2/3.6.3,ruby225
 - lua 5.3.5
@@ -24,6 +24,13 @@ We recommend that developers write primary logic in a scripting language, and GU
 
 
 ## History of CLE
+### 3.7.5
+- Adds functions GetCoreOperationPath/SetCoreLibraryPath/GetCoreLibraryPath/SetShareLibraryPath/GetShareLibraryPath for SRPControlInterface
+- Fix bug of ImportRawContext for java interface on android
+- Adds functions QueryFirstStringKeyEx/QueryNextStringKeyEx/QueryFirstStringKeyAEx/QueryNextStringKeyAEx for BasicSRPInterface and SRPInterface, which returns the index key
+- released at 2021/01/12 
+
+
 ### 3.7.4
 - released at 2020/11/15 
 
